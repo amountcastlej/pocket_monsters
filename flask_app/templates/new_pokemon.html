@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha348-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <title>New Pokemon</title>
+</head>
+<body>
+    <h1>Add New Pokemon</h1>
+    <a href="/">Dashboard</a>
+    <form action="/pokemon/create" method="post" class="col-md-5">
+        <div class="form-group">
+            <label for="title">Name:</label>
+            <input type="text" name="name" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="type">Type:</label>
+            <input type="text" name="type" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="text" name="email" class="form-control">
+        </div>
+        <button class="btn btn-primary">Create</button>
+    </form>
+</body>
+</html>
